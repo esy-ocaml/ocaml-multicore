@@ -1,6 +1,6 @@
 {
-  "name": "@prometheansacrifice/ocaml-secondary-compiler",
-  "version": "4.8.1000",
+  "name": "ocaml",
+  "version": "4.6.1000+multicore",
   "description": "OCaml Secondary Compiler as an esy npm Package",
   "versionNotes": [
     "See the README for notes about how the version of this package corresponds to the official OCaml compiler version."

@@ -1,3 +1,19 @@
+= Esy notes =
+
+This repo tracks the link:upstream[] with only changes made in the manifest file and necessary esy scripts (esy-* files)
+
+
+== Branches
+
+We suffix our branches with `+esy` with exception of master (which is tracked by `esy`)
+
+1. `esy` tracks `master`
+2. `paralell_minor_gc+esy` tracks `parallel_minor_gc`
+
+... and so on.
+
+
+
 |=====
 | Branch `trunk` | Branch `4.05` | Branch `4.04`
 

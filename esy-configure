@@ -28,7 +28,7 @@ case "$(uname -s)" in
 	set +e # because on platforms that use clang, it's okay if the following statement fails
 	MAJOR_VERSION=$(gcc -dumpversion | awk -F. '{ print $1 }' )
 	if [ $MAJOR_VERSION -ge $VERSION_NEEDED_TO_PATCH ]; then
-	  ./configure "$@" -cc "gcc -fcommon"
+	  env CC="gcc -fcommon" ./configure "$@" 
 	else
 	  ./configure "$@"
 	fi

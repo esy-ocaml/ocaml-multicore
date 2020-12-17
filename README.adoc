@@ -1,5 +1,7 @@
 = Esy notes =
 
+image:https://dev.azure.com/esy-ocaml/esy-ocaml/_apis/build/status/esy-ocaml.ocaml-multicore?branchName=prometheansacrifice%2Fsync-upstream
+
 This repo tracks the link:upstream[] with only changes made in the manifest file and necessary esy scripts (esy-* files)
 
 

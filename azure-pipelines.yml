@@ -1,0 +1,19 @@
+jobs:
+# - template: .ci/build.yaml 
+#   parameters:
+#     host: macOS
+#     pool:
+#       vmImage: 'macOS-latest'
+
+- template: .ci/build.yaml
+  parameters:
+    host: Linux
+    pool:
+      vmImage: 'Ubuntu-latest'
+
+# - template: .ci/build.yaml  # Template reference
+#   parameters:
+#     host: Windows
+#     pool:
+#       vmImage: 'windows-latest'
+#     sign: true 
